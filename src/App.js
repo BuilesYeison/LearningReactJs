@@ -62,7 +62,12 @@ const App=()=> {
         </div>
         <button type="submit">Enter</button>
         {/*{isLogged ? <h2>Is logged</h2>:undefined}*/}{/*One way*/}
-        {isLogged&& <h2>Is logged</h2>} {/*renderizado condicional, si es true muestra el h2*/}
+        {isLogged&& <div>
+        {
+          jsonData.map(value=>( 
+            <p key={value.key}> {value.name} </p>/*retornar todos los nombres que estan en el array de objetos*/
+          ))
+        }</div>} {/*renderizado condicional, si es true muestra el h2*/}
       </form>
     </div>
   );
