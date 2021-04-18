@@ -1,0 +1,27 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+        height: 60%;
+        h2{
+            color: black;
+            font-weight: 600;
+            font-size: 32px;
+        }
+        a{
+            cursor: pointer;
+        }
+        button{
+            width: 150px;
+            align-self: center;
+        }
+    }
+}

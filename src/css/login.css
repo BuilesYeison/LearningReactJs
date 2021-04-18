@@ -1,0 +1,29 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 60%;
+}
+.App .content h2 {
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+}
+.App .content a {
+  cursor: pointer;
+}
+.App .content button {
+  width: 150px;
+  align-self: center;
+}
+
+/*# sourceMappingURL=login.css.map */
